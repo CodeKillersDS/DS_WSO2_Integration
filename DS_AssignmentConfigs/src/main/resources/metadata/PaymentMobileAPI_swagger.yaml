@@ -1,0 +1,38 @@
+openapi: 3.0.1
+info:
+  title: PaymentMobileAPI
+  description: API Definition of PaymentMobileAPI
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/paymentmobile
+paths:
+  /sendPing:
+    post:
+      requestBody:
+        description: Sample Payload
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                payload:
+                  type: object
+        required: false
+      responses:
+        default:
+          description: Default response
+  /add-mobile:
+    post:
+      requestBody:
+        description: Sample Payload
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                payload:
+                  type: object
+        required: false
+      responses:
+        default:
+          description: Default response

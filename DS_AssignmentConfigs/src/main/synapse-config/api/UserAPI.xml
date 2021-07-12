@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/user" name="UserAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" url-mapping="/login">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="loginPoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" url-mapping="/logout">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="logoutPoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" uri-template="/products/{id}">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="productPoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" url-mapping="/products">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="addProductPoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" url-mapping="/register">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="registerPoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" uri-template="/products/{id}">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="deleteProductPoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="PUT" uri-template="/products/{id}">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="updateProductPoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" url-mapping="/products-user">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="productsUserPoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" url-mapping="/products">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="landinggetProduct"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" uri-template="/products/search/{name}">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="ProductSearchUser"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" uri-template="/products/cart/{id}">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="ProductAddCart"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

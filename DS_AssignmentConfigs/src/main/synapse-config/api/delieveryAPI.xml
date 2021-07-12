@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/delievery" name="delieveryAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" url-mapping="/delivery-order">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="AddDelieery"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" uri-template="/delivery-order/{id}">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="DelieveryDelete"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

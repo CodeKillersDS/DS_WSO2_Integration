@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="loginPoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/loginPoint.xml</file>
+    </artifact>
+    <artifact name="UserAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/UserAPI.xml</file>
+    </artifact>
+    <artifact name="UserAPI_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/UserAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="UserAPI_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/UserAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="logoutPoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/logoutPoint.xml</file>
+    </artifact>
+    <artifact name="productPoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/productPoint.xml</file>
+    </artifact>
+    <artifact name="addProductPoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addProductPoint.xml</file>
+    </artifact>
+    <artifact name="registerPoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/registerPoint.xml</file>
+    </artifact>
+    <artifact name="deleteProductPoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/deleteProductPoint.xml</file>
+    </artifact>
+    <artifact name="updateProductPoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updateProductPoint.xml</file>
+    </artifact>
+    <artifact name="delieveryAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/delieveryAPI.xml</file>
+    </artifact>
+    <artifact name="delieveryAPI_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/delieveryAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="delieveryAPI_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/delieveryAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="AddDelieery" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/AddDelieery.xml</file>
+    </artifact>
+    <artifact name="DelieveryDelete" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/DelieveryDelete.xml</file>
+    </artifact>
+    <artifact name="PaymentAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/PaymentAPI.xml</file>
+    </artifact>
+    <artifact name="PaymentAPI_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/PaymentAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="PaymentAPI_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/PaymentAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="addPaymentCard" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addPaymentCard.xml</file>
+    </artifact>
+    <artifact name="sendPingMobile" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/sendPingMobile.xml</file>
+    </artifact>
+    <artifact name="addPaymentMobile" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addPaymentMobile.xml</file>
+    </artifact>
+    <artifact name="productsUserPoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/productsUserPoint.xml</file>
+    </artifact>
+    <artifact name="landinggetProduct" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/landinggetProduct.xml</file>
+    </artifact>
+    <artifact name="PaymentMobileAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/PaymentMobileAPI.xml</file>
+    </artifact>
+    <artifact name="PaymentMobileAPI_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/PaymentMobileAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="PaymentMobileAPI_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/PaymentMobileAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="ProductSearchUser" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/ProductSearchUser.xml</file>
+    </artifact>
+    <artifact name="ProductAddCart" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/ProductAddCart.xml</file>
+    </artifact>
+</artifacts>

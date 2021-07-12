@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/paymentmobile" name="PaymentMobileAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" url-mapping="/sendPing">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="sendPingMobile"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" url-mapping="/add-mobile">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="addPaymentMobile"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>
